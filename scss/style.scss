@@ -1,0 +1,85 @@
+@import "config";
+@import "utilities";
+@import "buttons";
+$secondarycolor:#fff;
+$primarycolor:orangered;
+$space:10px;
+@mixin sizings{
+  text-align:center;
+}
+.brand-color{
+ background-color:orangered;
+}
+.hero-img{
+  width:50%;
+}
+body{
+  font-family: 'Lato', sans-serif;
+}
+.container{
+  width:100%;
+  max-width:1200px;
+  margin:0 auto;
+}
+nav{
+
+  .nav-links-wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo{
+     font-family: 'Kaushan Script', cursive;
+     color:$primarycolor;
+    }
+    .call-to-action{
+      @extend .brand-color;
+      padding:$space;
+    }
+    .nav-link{
+     list-style: none;
+     text-transform: uppercase;
+    }
+   
+  }
+}
+/*hero-section */
+.hero-img-wrapper{
+  .container{
+   @include sizings;
+    padding:15px;
+  }
+  .hero-img{
+    width:50%;
+    height:50%;
+  }
+}
+
+/*copysection */
+.main-headline{
+.container{
+  @include sizings;
+.caption{
+  color:navy;
+  font-size:48px;
+}
+.caption-copy{
+  min-width:50%;
+}
+.primary{
+ @extend .brand-color;
+  color:#fff;
+  padding:$space;
+
+}
+.secondary{
+  background-color:$secondarycolor;
+  color:navy;
+  padding:$space;
+
+}
+.quote{
+  color:blue;
+}
+}
+}
+

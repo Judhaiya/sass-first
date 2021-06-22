@@ -1,0 +1,18 @@
+$font-stack:'Lato', sans-serif;
+$primary-color:#E74C3C ;
+$link-color:white;
+$cool-color:#82EF46;
+$decoration:none;
+//set textcolor based on bg
+@function set-color($color){
+ @if(lightness($color)>70 ){
+  @return #333;
+ }@else{
+     @return #fff;
+ }
+}
+//set background & text-color
+@mixin set-custom($custom){
+  background-color:$custom;
+  color:set-color($custom)
+}

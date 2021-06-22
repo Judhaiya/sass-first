@@ -1,0 +1,114 @@
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #92f15d;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ccffff;
+  color: #333;
+}
+
+.brand-color, nav .nav-links-wrapper .call-to-action, .main-headline .container .primary {
+  background-color: orangered;
+}
+
+.hero-img {
+  width: 50%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav .nav-links-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .nav-links-wrapper .logo {
+  font-family: 'Kaushan Script', cursive;
+  color: orangered;
+}
+
+nav .nav-links-wrapper .call-to-action {
+  padding: 10px;
+}
+
+nav .nav-links-wrapper .nav-link {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+/*hero-section */
+.hero-img-wrapper .container {
+  text-align: center;
+  padding: 15px;
+}
+
+.hero-img-wrapper .hero-img {
+  width: 50%;
+  height: 50%;
+}
+
+/*copysection */
+.main-headline .container {
+  text-align: center;
+}
+
+.main-headline .container .caption {
+  color: navy;
+  font-size: 48px;
+}
+
+.main-headline .container .caption-copy {
+  min-width: 50%;
+}
+
+.main-headline .container .primary {
+  color: #fff;
+  padding: 10px;
+}
+
+.main-headline .container .secondary {
+  background-color: #fff;
+  color: navy;
+  padding: 10px;
+}
+
+.main-headline .container .quote {
+  color: blue;
+}
+/*# sourceMappingURL=style.css.map */
