@@ -95,6 +95,7 @@ nav .nav-links-wrapper .nav-link {
 
 .main-headline .container .caption-copy {
   min-width: 50%;
+  padding: 0 15px;
 }
 
 .main-headline .container .primary {
